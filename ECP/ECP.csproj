@@ -94,5 +94,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ico\baseline_close_white_48dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ico\baseline_minimize_white_48dp.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

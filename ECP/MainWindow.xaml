@@ -5,8 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ECP"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="1000" Width="700" Background="Black" FontFamily="Courier New" WindowStyle="None" AllowsTransparency="True" MouseMove="Window_MouseMove">
     <Grid>
-        
+        <Label Content="[V1.0.0] EDUKACYJNY PROGRAM KRYPTOGRAFICZNY" Foreground="White" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.052,0.559"/>
+        <Button Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" Margin="666,5,0,0" VerticalAlignment="Top" Width="24" Height="24" Click="CloseButton_Click">
+            <Image Source="C:/Users/dawid/source/repos/ECP/ECP/ico/baseline_close_white_48dp.png" Width="24" Height="24" />
+        </Button>
+        <Button Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" Margin="640,5,0,0" VerticalAlignment="Top" Width="24" Height="24" Click="MinimizeButton_Click">
+            <Image Source="C:/Users/dawid/source/repos/ECP/ECP/ico/baseline_minimize_white_48dp.png" Width="24" Height="24" />
+        </Button>
+
     </Grid>
 </Window>
