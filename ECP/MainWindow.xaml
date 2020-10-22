@@ -14,6 +14,34 @@
         <Button Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" Margin="640,5,0,0" VerticalAlignment="Top" Width="24" Height="24" Click="MinimizeButton_Click">
             <Image Source="C:/Users/dawid/source/repos/ECP/ECP/ico/baseline_minimize_white_48dp.png" Width="24" Height="24" />
         </Button>
-
+        <Label Content="Proste Szyfry Podstawieniowe" Foreground="White" HorizontalAlignment="Left" Margin="10,74,0,0" VerticalAlignment="Top" Width="320"/>
+        <Button Content="ROT13" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="54" Margin="10,103,0,0" Click="ROT13Button_Click" />
+        <Button Content="Szyfr Cezara" Background="Transparent" Foreground="White" HorizontalAlignment="Left" Margin="69,103,0,0" VerticalAlignment="Top" Width="106" Click="CaesarCipherButton_Click" />
+        <Label Content="Homofoniczne Szyfry Podstawieniowe" Foreground="White" HorizontalAlignment="Left" Margin="10,126,0,0" VerticalAlignment="Top" Width="320"/>
+        <Button Content="Szyfr Książkowy" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="126" Margin="10,155,0,0" Click="BookCipherButton_Click" />
+        <Label Content="Poligramowe Szyfry Podstawieniowe" Foreground="White" HorizontalAlignment="Left" Margin="10,178,0,0" VerticalAlignment="Top" Width="320"/>
+        <Button Content="Szyfr Playfair" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="10,207,0,0" Click="PlayfairCipherButton_Click" />
+        <Button Content="Szyfr Dwukwadratowy" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="158" Margin="135,207,0,0" Click="TwoSquareCipherButton_Click" />
+        <Button Content="Szyfr Czterokwadratowy" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="178" Margin="298,207,0,0" Click="FourSquareCipherButton_Click" />
+        <Button Content="Szyfr Hilla" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="101" Margin="481,207,0,0" Click="HillCipherButton_Click" />
+        <Label Content="Wieloalfabetowe Szyfry Podstawieniowe" Foreground="White" HorizontalAlignment="Left" Margin="10,230,0,0" VerticalAlignment="Top" Width="320"/>
+        <Button Content="Szyfr Trithemius'a" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="152" Margin="10,259,0,0" Click="TrithemiusCipherButton_Click" />
+        <Button Content="Szyfr Vigenère'a" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="136" Margin="167,259,0,0" Click="VinegereCipherButton_Click" />
+        <Button Content="Szyfr Beaufort'a" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="139" Margin="308,259,0,0" Click="BeaufortCipherButton_Click" />
+        <Button Content="Szyfr z Kluczem Bieżącym" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="194" Margin="452,259,0,0" Click="CurrentKeyCipherButton_Click" />
+        <Button Content="Szyfr z Kluczem Automatycznym" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="230" Margin="10,282,0,0" Click="AutomaticKeyCipherButton_Click" />
+        <Button Content="Szyfr Nihilist" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="118" Margin="246,282,0,0" Click="NihilistCipherButton_Click" />
+        <Button Content="Szyfr VIC" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="89" Margin="369,282,0,0" Click="VICCipherButton_Click" />
+        <Button Content="Szyfr XOR" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="89" Margin="463,282,0,0" Click="XORCipherButton_Click" />
+        <Label Content="Szyfry Przestawieniowe" Foreground="White" HorizontalAlignment="Left" Margin="10,305,0,0" VerticalAlignment="Top" Width="320"/>
+        <Button Content="Szyfr Płotkowy" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="10,334,0,0" Click="FenceCipherButton_Click" />
+        <Button Content="Szyfr Ścieżkowy" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="129" Margin="135,334,0,0" Click="PathCipherButton_Click" />
+        <Button Content="Szyfr Kolumnowy" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="132" Margin="269,334,0,0" Click="ColumnCipherButton_Click" />
+        <Button Content="Podwójny Szyfr Kolumnowy" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="196" Margin="406,334,0,0" Click="DoubleColumnCipherButton_Click" />
+        <Button Content="Szyfr Myszkowskiego" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="157" Margin="10,357,0,0" Click="MyszkowskiCipherButton_Click" />
+        <Label Content="Maszyny Rotorowe" Foreground="White" HorizontalAlignment="Left" Margin="10,380,0,0" VerticalAlignment="Top" Width="320"/>
+        <Button Content="Maszyna Hebern'a" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="196" Margin="10,409,0,0" Click="HebernMachineButton_Click" Height="40" />
+        <Button Content="Maszyna Lorenz'a" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="196" Margin="211,409,0,0" Click="LorenzMachineButton_Click" Height="40" />
+        <Button Content="Enigma" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="196" Margin="412,409,0,0" Click="EnigmaButton_Click" Height="40" />
     </Grid>
 </Window>

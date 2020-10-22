@@ -55,6 +55,75 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="window\AutomaticKeyCipherWindow.xaml.cs">
+      <DependentUpon>AutomaticKeyCipherWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window\BeaufortCipherWindow.xaml.cs">
+      <DependentUpon>BeaufortCipherWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window\BookCipherWindow.xaml.cs">
+      <DependentUpon>BookCipherWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window\CaesarCipherWindow.xaml.cs">
+      <DependentUpon>CaesarCipherWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window\ColumnCipherWindow.xaml.cs">
+      <DependentUpon>ColumnCipherWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window\CurrentKeyCipherWindow.xaml.cs">
+      <DependentUpon>CurrentKeyCipherWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window\DoubleColumnCipherWindow.xaml.cs">
+      <DependentUpon>DoubleColumnCipherWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window\EnigmaWindow.xaml.cs">
+      <DependentUpon>EnigmaWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window\FenceCipherWindow.xaml.cs">
+      <DependentUpon>FenceCipherWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window\FourSquareCipherWindow.xaml.cs">
+      <DependentUpon>FourSquareCipherWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window\HebernMachineWindow.xaml.cs">
+      <DependentUpon>HebernMachineWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window\HillCipherWindow.xaml.cs">
+      <DependentUpon>HillCipherWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window\LorenzMachineWindow.xaml.cs">
+      <DependentUpon>LorenzMachineWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window\MyszkowskiCipherWindow.xaml.cs">
+      <DependentUpon>MyszkowskiCipherWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window\NihilistCipherWindow.xaml.cs">
+      <DependentUpon>NihilistCipherWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window\PathCipherWindow.xaml.cs">
+      <DependentUpon>PathCipherWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window\PlayfairCipherWindow.xaml.cs">
+      <DependentUpon>PlayfairCipherWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window\ROT13Window.xaml.cs">
+      <DependentUpon>ROT13Window.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window\TrithemiusCipherWindow.xaml.cs">
+      <DependentUpon>TrithemiusCipherWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window\TwoSquareCipherWindow.xaml.cs">
+      <DependentUpon>TwoSquareCipherWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window\VICCipherWindow.xaml.cs">
+      <DependentUpon>VICCipherWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window\VinegereCipherWindow.xaml.cs">
+      <DependentUpon>VinegereCipherWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window\XORCipherWindow.xaml.cs">
+      <DependentUpon>XORCipherWindow.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -67,6 +136,98 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="window\AutomaticKeyCipherWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="window\BeaufortCipherWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="window\BookCipherWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="window\CaesarCipherWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="window\ColumnCipherWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="window\CurrentKeyCipherWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="window\DoubleColumnCipherWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="window\EnigmaWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="window\FenceCipherWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="window\FourSquareCipherWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="window\HebernMachineWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="window\HillCipherWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="window\LorenzMachineWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="window\MyszkowskiCipherWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="window\NihilistCipherWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="window\PathCipherWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="window\PlayfairCipherWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="window\ROT13Window.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="window\TrithemiusCipherWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="window\TwoSquareCipherWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="window\VICCipherWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="window\VinegereCipherWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="window\XORCipherWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
