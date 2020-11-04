@@ -181,5 +181,95 @@ namespace ECP
             EnigmaWindow window = new EnigmaWindow();
             window.Show();
         }
+
+        private void OTPButton_Click(object sender, RoutedEventArgs e)
+        {
+            OTPWindow window = new OTPWindow();
+            window.Show();
+        }
+
+        private void RC4Button_Click(object sender, RoutedEventArgs e)
+        {
+            RC4Window window = new RC4Window();
+            window.Show();
+        }
+
+        private void Salsa20Button_Click(object sender, RoutedEventArgs e)
+        {
+            Salsa20Window window = new Salsa20Window();
+            window.Show();
+        }
+
+        private void CSSButton_Click(object sender, RoutedEventArgs e)
+        {
+            CSSWindow window = new CSSWindow();
+            window.Show();
+        }
+
+        private void DESButton_Click(object sender, RoutedEventArgs e)
+        {
+            DESWindow window = new DESWindow();
+            window.Show();
+        }
+
+        private void RC2Button_Click(object sender, RoutedEventArgs e)
+        {
+            RC2Window window = new RC2Window();
+            window.Show();
+        }
+
+        private void ThreeDESButton_Click(object sender, RoutedEventArgs e)
+        {
+            ThreeDESWindow window = new ThreeDESWindow();
+            window.Show();
+        }
+
+        private void AESButton_Click(object sender, RoutedEventArgs e)
+        {
+            AESWindow window = new AESWindow();
+            window.Show();
+        }
+
+        private void BlowfishButton_Click(object sender, RoutedEventArgs e)
+        {
+            BlowfishWindow window = new BlowfishWindow();
+            window.Show();
+        }
+
+        private void CamelliaButton_Click(object sender, RoutedEventArgs e)
+        {
+            CamelliaWindow window = new CamelliaWindow();
+            window.Show();
+        }
+
+        private void SerpentButton_Click(object sender, RoutedEventArgs e)
+        {
+            SerpentWindow window = new SerpentWindow();
+            window.Show();
+        }
+
+        private void TwofishButton_Click(object sender, RoutedEventArgs e)
+        {
+            TwofishWindow window = new TwofishWindow();
+            window.Show();
+        }
+
+        private void MerklePuzzleButton_Click(object sender, RoutedEventArgs e)
+        {
+            MerklePuzzleWindow window = new MerklePuzzleWindow();
+            window.Show();
+        }
+
+        private void DiffieHellmanProtocolButton_Click(object sender, RoutedEventArgs e)
+        {
+            DiffieHellmanProtocolWindow window = new DiffieHellmanProtocolWindow();
+            window.Show();
+        }
+
+        private void RSAButton_Click(object sender, RoutedEventArgs e)
+        {
+            RSAWindow window = new RSAWindow();
+            window.Show();
+        }
     }
 }

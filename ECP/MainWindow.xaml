@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ECP"
         mc:Ignorable="d"
-        Title="MainWindow" Height="1000" Width="700" Background="Black" FontFamily="Courier New" WindowStyle="None" AllowsTransparency="True" MouseMove="Window_MouseMove">
+        Title="MainWindow" Height="1000" Width="700" Background="Black" FontFamily="Courier New" WindowStyle="None" AllowsTransparency="True" MouseMove="Window_MouseMove" ResizeMode="NoResize">
     <Grid>
         <Label Content="[V1.0.0] EDUKACYJNY PROGRAM KRYPTOGRAFICZNY" Foreground="White" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.052,0.559"/>
         <Button Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" Margin="666,5,0,0" VerticalAlignment="Top" Width="24" Height="24" Click="CloseButton_Click">
@@ -43,5 +43,23 @@
         <Button Content="Maszyna Hebern'a" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="196" Margin="10,409,0,0" Click="HebernMachineButton_Click" Height="40" />
         <Button Content="Maszyna Lorenz'a" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="196" Margin="211,409,0,0" Click="LorenzMachineButton_Click" Height="40" />
         <Button Content="Enigma" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="196" Margin="412,409,0,0" Click="EnigmaButton_Click" Height="40" />
+        <Label Content="Symetryczne Szyfry Strumieniowe" Foreground="White" HorizontalAlignment="Left" Margin="10,454,0,0" VerticalAlignment="Top" Width="320"/>
+        <Button Content="OTP" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="46" Margin="10,483,0,0" Click="OTPButton_Click" />
+        <Button Content="RC4" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="47" Margin="61,483,0,0" Click="RC4Button_Click" />
+        <Button Content="Salsa 20" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="85" Margin="113,483,0,0" Click="Salsa20Button_Click" />
+        <Button Content="CSS" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="46" Margin="203,483,0,0" Click="CSSButton_Click" />
+        <Label Content="Symetryczne Szyfry Blokowe" Foreground="White" HorizontalAlignment="Left" Margin="10,506,0,0" VerticalAlignment="Top" Width="320"/>
+        <Button Content="DES" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="46" Margin="10,535,0,0" Click="DESButton_Click" />
+        <Button Content="RC2" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="46" Margin="61,535,0,0" Click="RC2Button_Click" />
+        <Button Content="3DES" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="112,535,0,0" Click="ThreeDESButton_Click" />
+        <Button Content="AES" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="167,535,0,0" Click="AESButton_Click" />
+        <Button Content="Blowfish" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="81" Margin="222,535,0,0" Click="BlowfishButton_Click" />
+        <Button Content="Camellia" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="81" Margin="308,535,0,0" Click="CamelliaButton_Click" />
+        <Button Content="Serpent" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="74" Margin="394,535,0,0" Click="SerpentButton_Click" />
+        <Button Content="Twofish" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="473,535,0,0" Click="TwofishButton_Click" />
+        <Label Content="Szyfry Asymetryczne" Foreground="White" HorizontalAlignment="Left" Margin="10,558,0,0" VerticalAlignment="Top" Width="320"/>
+        <Button Content="Puzzle Merkle'a" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="126" Margin="10,587,0,0" Click="MerklePuzzleButton_Click" />
+        <Button Content="Protokół Diffiego-Hellmana" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="205" Margin="141,587,0,0" Click="DiffieHellmanProtocolButton_Click" />
+        <Button Content="RSA" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="46" Margin="351,587,0,0" Click="RSAButton_Click" />
     </Grid>
 </Window>

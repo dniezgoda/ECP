@@ -55,11 +55,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="window\AESWindow.xaml.cs">
+      <DependentUpon>AESWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="window\AutomaticKeyCipherWindow.xaml.cs">
       <DependentUpon>AutomaticKeyCipherWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="window\BeaufortCipherWindow.xaml.cs">
       <DependentUpon>BeaufortCipherWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window\BlowfishWindow.xaml.cs">
+      <DependentUpon>BlowfishWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="window\BookCipherWindow.xaml.cs">
       <DependentUpon>BookCipherWindow.xaml</DependentUpon>
@@ -67,11 +73,23 @@
     <Compile Include="window\CaesarCipherWindow.xaml.cs">
       <DependentUpon>CaesarCipherWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="window\CamelliaWindow.xaml.cs">
+      <DependentUpon>CamelliaWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="window\ColumnCipherWindow.xaml.cs">
       <DependentUpon>ColumnCipherWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="window\CSSWindow.xaml.cs">
+      <DependentUpon>CSSWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="window\CurrentKeyCipherWindow.xaml.cs">
       <DependentUpon>CurrentKeyCipherWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window\DESWindow.xaml.cs">
+      <DependentUpon>DESWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window\DiffieHellmanProtocolWindow.xaml.cs">
+      <DependentUpon>DiffieHellmanProtocolWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="window\DoubleColumnCipherWindow.xaml.cs">
       <DependentUpon>DoubleColumnCipherWindow.xaml</DependentUpon>
@@ -94,11 +112,17 @@
     <Compile Include="window\LorenzMachineWindow.xaml.cs">
       <DependentUpon>LorenzMachineWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="window\MerklePuzzleWindow.xaml.cs">
+      <DependentUpon>MerklePuzzleWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="window\MyszkowskiCipherWindow.xaml.cs">
       <DependentUpon>MyszkowskiCipherWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="window\NihilistCipherWindow.xaml.cs">
       <DependentUpon>NihilistCipherWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window\OTPWindow.xaml.cs">
+      <DependentUpon>OTPWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="window\PathCipherWindow.xaml.cs">
       <DependentUpon>PathCipherWindow.xaml</DependentUpon>
@@ -106,11 +130,32 @@
     <Compile Include="window\PlayfairCipherWindow.xaml.cs">
       <DependentUpon>PlayfairCipherWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="window\RC2Window.xaml.cs">
+      <DependentUpon>RC2Window.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window\RC4Window.xaml.cs">
+      <DependentUpon>RC4Window.xaml</DependentUpon>
+    </Compile>
     <Compile Include="window\ROT13Window.xaml.cs">
       <DependentUpon>ROT13Window.xaml</DependentUpon>
     </Compile>
+    <Compile Include="window\RSAWindow.xaml.cs">
+      <DependentUpon>RSAWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window\Salsa20Window.xaml.cs">
+      <DependentUpon>Salsa20Window.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window\SerpentWindow.xaml.cs">
+      <DependentUpon>SerpentWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window\ThreeDESWindow.xaml.cs">
+      <DependentUpon>ThreeDESWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="window\TrithemiusCipherWindow.xaml.cs">
       <DependentUpon>TrithemiusCipherWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window\TwofishWindow.xaml.cs">
+      <DependentUpon>TwofishWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="window\TwoSquareCipherWindow.xaml.cs">
       <DependentUpon>TwoSquareCipherWindow.xaml</DependentUpon>
@@ -136,11 +181,19 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="window\AESWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="window\AutomaticKeyCipherWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="window\BeaufortCipherWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="window\BlowfishWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -152,11 +205,27 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="window\CamelliaWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="window\ColumnCipherWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="window\CSSWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="window\CurrentKeyCipherWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="window\DESWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="window\DiffieHellmanProtocolWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -188,11 +257,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="window\MerklePuzzleWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="window\MyszkowskiCipherWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="window\NihilistCipherWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="window\OTPWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -204,11 +281,39 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="window\RC2Window.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="window\RC4Window.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="window\ROT13Window.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="window\RSAWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="window\Salsa20Window.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="window\SerpentWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="window\ThreeDESWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="window\TrithemiusCipherWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="window\TwofishWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
