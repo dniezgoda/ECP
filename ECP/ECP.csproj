@@ -55,6 +55,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="code\CaesarCipherCode.cs" />
+    <Compile Include="code\ROT13Code.cs" />
     <Compile Include="window\AESWindow.xaml.cs">
       <DependentUpon>AESWindow.xaml</DependentUpon>
     </Compile>

@@ -15,5 +15,13 @@
             <Image Source="C:/Users/dawid/source/repos/ECP/ECP/ico/baseline_minimize_white_48dp.png" Width="24" Height="24" />
         </Button>
         <Label Content="ROT13" Foreground="White" HorizontalAlignment="Left" Margin="10,39,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="TextBoxFirst" Background="Transparent" Foreground="White" HorizontalAlignment="Left" Height="250" Margin="10,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="680" />
+        <Button Content="Uruchom" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="82" Margin="10,323,0,0" Click="ExecuteButton_Click" Height="25" />
+        <TextBox Name="TextBoxSecond" Background="Transparent" Foreground="White" HorizontalAlignment="Left" Margin="10,353,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="680" Height="250" IsReadOnly="True"/>
+        <Label Content="Informacje" Foreground="White" HorizontalAlignment="Left" Margin="10,608,0,0" VerticalAlignment="Top"/>
+        <TextBlock Background="Transparent" Foreground="White" HorizontalAlignment="Left" Margin="10,637,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="680" Height="353" ><Run Text="Algorytm ROT13 jest prostym szyfrem podstawieniowym polegającym na przesunięciu znaków o 13 pozycji w alfabecie łacińskim posiadającym 26 liter."/><Run Text=" Jest to odmiania szyfru cezara."/><LineBreak/><Run/><LineBreak/><Run Text="Przykład"/><LineBreak/><Run/><LineBreak/><Run Text="A -&gt; N"/><LineBreak/><Run Text="B -&gt; O"/><LineBreak/><Run/><LineBreak/><Run Text="Algorytm jest stosowany do ominięcia automatycznych algorytmów sprawdzających słowa użytych w wiadomościach. Wykorzystywany jest do ukrywania wiadomości e-mail przed spambotami lub zabronionych treści na różnych forach."/><LineBreak/><Run/><LineBreak/><Run Text="Szyfrowanie, jak i deszyfrowanie wiadomości odbywa się poprzez ten sam algorytm. Nie posiada klucza. W związku z tym jest łatwy do odszyfrowania, ponieważ potrzebna jest jedynie informacja, że wiadomość była szyfrowana tym algorytmem."/></TextBlock>
+        <RadioButton Name="RadioButtonEncrypt" Content="Encrypt" Foreground="White" HorizontalAlignment="Left" Margin="97,323,0,0" VerticalAlignment="Top" Height="25" IsChecked="True"/>
+        <RadioButton Name="RadioButtonDecrypt" Content="Decrypt" Foreground="White" HorizontalAlignment="Left" Margin="171,323,0,0" VerticalAlignment="Top" Height="25"/>
+        <Button Content="Wyczyść" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="82" Margin="248,323,0,0" Click="ClearButton_Click" Height="25" />
     </Grid>
 </Window>

@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using ECP.code;
 
 namespace ECP.window
 {
@@ -40,6 +41,22 @@ namespace ECP.window
             {
                 this.DragMove();
             }
+        }
+
+        private void ExecuteButton_Click(object sender, RoutedEventArgs e)
+        {
+            string message = TextBoxFirst.Text;
+
+            if(RadioButtonEncrypt.IsChecked == true)
+                TextBoxSecond.Text = ROT13Code.Cipher(message);
+            else
+                TextBoxSecond.Text = ROT13Code.Cipher(message);
+        }
+
+        private void ClearButton_Click(object sender, RoutedEventArgs e)
+        {
+            TextBoxFirst.Text = "";
+            TextBoxSecond.Text = "";
         }
     }
 }
