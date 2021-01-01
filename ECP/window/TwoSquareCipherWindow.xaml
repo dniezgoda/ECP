@@ -15,5 +15,6 @@
             <Image Source="C:/Users/dawid/source/repos/ECP/ECP/ico/baseline_minimize_white_48dp.png" Width="24" Height="24" />
         </Button>
         <Label Content="Szyfr Dwukwadratowy" Foreground="White" HorizontalAlignment="Left" Margin="10,39,0,0" VerticalAlignment="Top"/>
+        
     </Grid>
 </Window>
