@@ -15,5 +15,14 @@
             <Image Source="C:/Users/dawid/source/repos/ECP/ECP/ico/baseline_minimize_white_48dp.png" Width="24" Height="24" />
         </Button>
         <Label Content="Szyfr Vigenère'a" Foreground="White" HorizontalAlignment="Left" Margin="10,39,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="TextBoxFirst" Background="Transparent" Foreground="White" HorizontalAlignment="Left" Height="250" Margin="10,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="680" />
+        <Button Content="Uruchom" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="82" Margin="10,323,0,0" Click="ExecuteButton_Click" Height="25" />
+        <TextBox Name="TextBoxSecond" Background="Transparent" Foreground="White" HorizontalAlignment="Left" Margin="10,353,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="680" Height="250" IsReadOnly="True"/>
+        <Label Content="Informacje" Foreground="White" HorizontalAlignment="Left" Margin="10,608,0,0" VerticalAlignment="Top"/>
+        <RadioButton Name="RadioButtonEncrypt" Content="Encrypt" Foreground="White" HorizontalAlignment="Left" Margin="97,323,0,0" VerticalAlignment="Top" Height="25" IsChecked="True"/>
+        <RadioButton Name="RadioButtonDecrypt" Content="Decrypt" Foreground="White" HorizontalAlignment="Left" Margin="171,323,0,0" VerticalAlignment="Top" Height="25"/>
+        <Button Content="Wyczyść" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="82" Margin="248,323,0,0" Click="ClearButton_Click" Height="25" />
+        <Label Content="Klucz :" Background="Transparent" Foreground="White" HorizontalAlignment="Left" Margin="335,323,0,0" VerticalAlignment="Top" Width="59"/>
+        <TextBox Name="TextBoxKey" Background="Transparent" Foreground="White" Margin="394,323,156,653" Text="" />
     </Grid>
 </Window>

@@ -5,61 +5,29 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ECP"
         mc:Ignorable="d"
-        Title="MainWindow" Height="1000" Width="700" Background="Black" FontFamily="Courier New" WindowStyle="None" AllowsTransparency="True" MouseMove="Window_MouseMove" ResizeMode="NoResize">
+        Title="MainWindow" Height="1000" Width="700" Background="Black" FontSize="36" FontFamily="Courier New" WindowStyle="None" AllowsTransparency="True" MouseMove="Window_MouseMove" ResizeMode="NoResize">
     <Grid>
-        <Label Content="[V1.0.0] EDUKACYJNY PROGRAM KRYPTOGRAFICZNY" Foreground="White" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.052,0.559"/>
-        <Button Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" Margin="666,5,0,0" VerticalAlignment="Top" Width="24" Height="24" Click="CloseButton_Click">
+        <Label Content="[V1.0.0] EDUKACYJNY PROGRAM KRYPTOGRAFICZNY" FontSize="14" Foreground="AntiqueWhite" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.052,0.559" Height="31" Width="625"/>
+        <Button Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" Margin="667,5,0,0" VerticalAlignment="Top" Width="24" Height="24" Click="CloseButton_Click">
             <Image Source="C:/Users/dawid/source/repos/ECP/ECP/ico/baseline_close_white_48dp.png" Width="24" Height="24" />
         </Button>
         <Button Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" Margin="640,5,0,0" VerticalAlignment="Top" Width="24" Height="24" Click="MinimizeButton_Click">
             <Image Source="C:/Users/dawid/source/repos/ECP/ECP/ico/baseline_minimize_white_48dp.png" Width="24" Height="24" />
         </Button>
-        <Label Content="Proste Szyfry Podstawieniowe" Foreground="White" HorizontalAlignment="Left" Margin="10,74,0,0" VerticalAlignment="Top" Width="320"/>
-        <Button Content="ROT13" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="54" Margin="10,103,0,0" Click="ROT13Button_Click" />
-        <Button Content="Szyfr Cezara" Background="Transparent" Foreground="White" HorizontalAlignment="Left" Margin="69,103,0,0" VerticalAlignment="Top" Width="106" Click="CaesarCipherButton_Click" />
-        <Label Content="Homofoniczne Szyfry Podstawieniowe" Foreground="White" HorizontalAlignment="Left" Margin="10,126,0,0" VerticalAlignment="Top" Width="320"/>
-        <Button Content="Szyfr Książkowy" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="126" Margin="10,155,0,0" Click="BookCipherButton_Click" />
-        <Label Content="Poligramowe Szyfry Podstawieniowe" Foreground="White" HorizontalAlignment="Left" Margin="10,178,0,0" VerticalAlignment="Top" Width="320"/>
-        <Button Content="Szyfr Playfair" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="10,207,0,0" Click="PlayfairCipherButton_Click" />
-        <Button Content="Szyfr Dwukwadratowy" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="158" Margin="135,207,0,0" Click="TwoSquareCipherButton_Click" />
-        <Button Content="Szyfr Czterokwadratowy" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="178" Margin="298,207,0,0" Click="FourSquareCipherButton_Click" />
-        <Button Content="Szyfr Hilla" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="101" Margin="481,207,0,0" Click="HillCipherButton_Click" />
-        <Label Content="Wieloalfabetowe Szyfry Podstawieniowe" Foreground="White" HorizontalAlignment="Left" Margin="10,230,0,0" VerticalAlignment="Top" Width="320"/>
-        <Button Content="Szyfr Trithemius'a" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="152" Margin="10,259,0,0" Click="TrithemiusCipherButton_Click" />
-        <Button Content="Szyfr Vigenère'a" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="136" Margin="167,259,0,0" Click="VinegereCipherButton_Click" />
-        <Button Content="Szyfr Beaufort'a" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="139" Margin="308,259,0,0" Click="BeaufortCipherButton_Click" />
-        <Button Content="Szyfr z Kluczem Bieżącym" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="194" Margin="452,259,0,0" Click="CurrentKeyCipherButton_Click" />
-        <Button Content="Szyfr z Kluczem Automatycznym" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="230" Margin="10,282,0,0" Click="AutomaticKeyCipherButton_Click" />
-        <Button Content="Szyfr Nihilist" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="118" Margin="246,282,0,0" Click="NihilistCipherButton_Click" />
-        <Button Content="Szyfr VIC" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="89" Margin="369,282,0,0" Click="VICCipherButton_Click" />
-        <Button Content="Szyfr XOR" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="89" Margin="463,282,0,0" Click="XORCipherButton_Click" />
-        <Label Content="Szyfry Przestawieniowe" Foreground="White" HorizontalAlignment="Left" Margin="10,305,0,0" VerticalAlignment="Top" Width="320"/>
-        <Button Content="Szyfr Płotkowy" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120" Margin="10,334,0,0" Click="FenceCipherButton_Click" />
-        <Button Content="Szyfr Ścieżkowy" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="129" Margin="135,334,0,0" Click="PathCipherButton_Click" />
-        <Button Content="Szyfr Kolumnowy" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="132" Margin="269,334,0,0" Click="ColumnCipherButton_Click" />
-        <Button Content="Podwójny Szyfr Kolumnowy" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="196" Margin="406,334,0,0" Click="DoubleColumnCipherButton_Click" />
-        <Button Content="Szyfr Myszkowskiego" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="157" Margin="10,357,0,0" Click="MyszkowskiCipherButton_Click" />
-        <Label Content="Maszyny Rotorowe" Foreground="White" HorizontalAlignment="Left" Margin="10,380,0,0" VerticalAlignment="Top" Width="320"/>
-        <Button Content="Maszyna Hebern'a" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="196" Margin="10,409,0,0" Click="HebernMachineButton_Click" Height="40" />
-        <Button Content="Maszyna Lorenz'a" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="196" Margin="211,409,0,0" Click="LorenzMachineButton_Click" Height="40" />
-        <Button Content="Enigma" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="196" Margin="412,409,0,0" Click="EnigmaButton_Click" Height="40" />
-        <Label Content="Symetryczne Szyfry Strumieniowe" Foreground="White" HorizontalAlignment="Left" Margin="10,454,0,0" VerticalAlignment="Top" Width="320"/>
-        <Button Content="OTP" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="46" Margin="10,483,0,0" Click="OTPButton_Click" />
-        <Button Content="RC4" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="47" Margin="61,483,0,0" Click="RC4Button_Click" />
-        <Button Content="Salsa 20" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="85" Margin="113,483,0,0" Click="Salsa20Button_Click" />
-        <Button Content="CSS" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="46" Margin="203,483,0,0" Click="CSSButton_Click" />
-        <Label Content="Symetryczne Szyfry Blokowe" Foreground="White" HorizontalAlignment="Left" Margin="10,506,0,0" VerticalAlignment="Top" Width="320"/>
-        <Button Content="DES" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="46" Margin="10,535,0,0" Click="DESButton_Click" />
-        <Button Content="RC2" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="46" Margin="61,535,0,0" Click="RC2Button_Click" />
-        <Button Content="3DES" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="112,535,0,0" Click="ThreeDESButton_Click" />
-        <Button Content="AES" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="50" Margin="167,535,0,0" Click="AESButton_Click" />
-        <Button Content="Blowfish" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="81" Margin="222,535,0,0" Click="BlowfishButton_Click" />
-        <Button Content="Camellia" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="81" Margin="308,535,0,0" Click="CamelliaButton_Click" />
-        <Button Content="Serpent" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="74" Margin="394,535,0,0" Click="SerpentButton_Click" />
-        <Button Content="Twofish" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="79" Margin="473,535,0,0" Click="TwofishButton_Click" />
-        <Label Content="Szyfry Asymetryczne" Foreground="White" HorizontalAlignment="Left" Margin="10,558,0,0" VerticalAlignment="Top" Width="320"/>
-        <Button Content="Puzzle Merkle'a" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="126" Margin="10,587,0,0" Click="MerklePuzzleButton_Click" />
-        <Button Content="Protokół Diffiego-Hellmana" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="205" Margin="141,587,0,0" Click="DiffieHellmanProtocolButton_Click" />
-        <Button Content="RSA" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="46" Margin="351,587,0,0" Click="RSAButton_Click" />
+        <Button Content="ROT13" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="10,95,0,0" Click="ROT13Button_Click" Height="100" />
+        <Button Content="Cezar" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" Margin="352,95,0,0" VerticalAlignment="Top" Width="338" Click="CaesarCipherButton_Click" Height="100" />
+        <Button Content="Playfair" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="10,200,0,0" Click="PlayfairCipherButton_Click" Height="100" />
+        <Button Content="Vigenère" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="352,200,0,0" Click="VinegereCipherButton_Click" Height="100" />
+        <Button Content="XOR" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="10,305,0,0" Click="XORCipherButton_Click" Height="100" />
+        <Button Content="DES" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="352,305,0,0" Click="DESButton_Click" Height="100" />
+        <Button Content="RC2" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="352,410,0,0" Click="RC2Button_Click" Height="100" />
+        <Button Content="3DES" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="10,410,0,0" Click="ThreeDESButton_Click" Height="100" />
+        <Button Content="AES" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="10,515,0,0" Click="AESButton_Click" Height="100" />
+        <Button Content="SHA1" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="352,515,0,0" Click="SHA1Button_Click" Height="100" />
+        <Button Content="SHA256" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="10,620,0,0" Click="SHA256Button_Click" Height="100" />
+        <Button Content="SHA384" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="352,620,0,0" Click="SHA384Button_Click" Height="100" />
+        <Button Content="SHA512" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="10,725,0,0" Click="SHA512Button_Click" Height="100" />
+        <Button Content="MD5" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="353,725,0,0" Click="MD5Button_Click" Height="100" />
+        <Button Content="Informacje" Background="Transparent" Foreground="AntiqueWhite" FontSize="20"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="194" Margin="253,941,0,0" Click="Informations_Click" Height="29" />
     </Grid>
 </Window>

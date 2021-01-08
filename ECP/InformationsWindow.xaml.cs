@@ -11,20 +11,19 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using ECP.code;
 
-namespace ECP.window
+namespace ECP
 {
     /// <summary>
-    /// Interaction logic for DESWindow.xaml
+    /// Interaction logic for InformationsWindow.xaml
     /// </summary>
-    public partial class DESWindow : Window
+    public partial class InformationsWindow : Window
     {
-        public DESWindow()
+        public InformationsWindow()
         {
             InitializeComponent();
         }
-
+        
         private void MinimizeButton_Click(object sender, RoutedEventArgs e)
         {
             this.WindowState = WindowState.Minimized;
@@ -41,23 +40,6 @@ namespace ECP.window
             {
                 this.DragMove();
             }
-        }
-
-        private void ExecuteButton_Click(object sender, RoutedEventArgs e)
-        {
-            string message = TextBoxFirst.Text;
-            string key = TextBoxKey.Text;
-
-            if (RadioButtonEncrypt.IsChecked == true)
-                TextBoxSecond.Text = DESCode.Encrypt(message, key);
-            else
-                TextBoxSecond.Text = DESCode.Decrypt(message, key);
-        }
-
-        private void ClearButton_Click(object sender, RoutedEventArgs e)
-        {
-            TextBoxFirst.Text = "";
-            TextBoxSecond.Text = "";
         }
     }
 }

@@ -16,11 +16,11 @@ using ECP.code;
 namespace ECP.window
 {
     /// <summary>
-    /// Interaction logic for DESWindow.xaml
+    /// Interaction logic for SHA384Window.xaml
     /// </summary>
-    public partial class DESWindow : Window
+    public partial class SHA384Window : Window
     {
-        public DESWindow()
+        public SHA384Window()
         {
             InitializeComponent();
         }
@@ -46,12 +46,7 @@ namespace ECP.window
         private void ExecuteButton_Click(object sender, RoutedEventArgs e)
         {
             string message = TextBoxFirst.Text;
-            string key = TextBoxKey.Text;
-
-            if (RadioButtonEncrypt.IsChecked == true)
-                TextBoxSecond.Text = DESCode.Encrypt(message, key);
-            else
-                TextBoxSecond.Text = DESCode.Decrypt(message, key);
+            TextBoxSecond.Text = SHA384Code.Hash(message);
         }
 
         private void ClearButton_Click(object sender, RoutedEventArgs e)
