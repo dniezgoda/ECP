@@ -128,7 +128,7 @@ namespace ECP
             window.Show();
         }
 
-        private void Informations_Click(object sender, RoutedEventArgs e)
+        private void InformationsButton_Click(object sender, RoutedEventArgs e)
         {
             InformationsWindow window = new InformationsWindow();
             window.Show();

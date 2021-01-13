@@ -11,16 +11,15 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using ECP.code;
 
 namespace ECP.window
 {
     /// <summary>
-    /// Interaction logic for SHA384Window.xaml
+    /// Interaction logic for CaesarCipherInformationsWindow.xaml
     /// </summary>
-    public partial class SHA384Window : Window
+    public partial class CaesarCipherInformationsWindow : Window
     {
-        public SHA384Window()
+        public CaesarCipherInformationsWindow()
         {
             InitializeComponent();
         }
@@ -41,24 +40,6 @@ namespace ECP.window
             {
                 this.DragMove();
             }
-        }
-
-        private void ExecuteButton_Click(object sender, RoutedEventArgs e)
-        {
-            string message = TextBoxFirst.Text;
-            TextBoxSecond.Text = SHA384Code.Hash(message);
-        }
-
-        private void ClearButton_Click(object sender, RoutedEventArgs e)
-        {
-            TextBoxFirst.Text = "";
-            TextBoxSecond.Text = "";
-        }
-
-        private void InformationsButton_Click(object sender, RoutedEventArgs e)
-        {
-            SHA384InformationsWindow window = new SHA384InformationsWindow();
-            window.Show();
         }
     }
 }

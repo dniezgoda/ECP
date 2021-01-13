@@ -54,5 +54,11 @@ namespace ECP.window
             TextBoxFirst.Text = "";
             TextBoxSecond.Text = "";
         }
+
+        private void InformationsButton_Click(object sender, RoutedEventArgs e)
+        {
+            SHA1InformationsWindow window = new SHA1InformationsWindow();
+            window.Show();
+        }
     }
 }

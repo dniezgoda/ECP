@@ -95,5 +95,11 @@ namespace ECP.window
             else
                 TextBoxSecond.Text = CaesarCipherCode.Decrypt(message, key);
         }
+
+        private void InformationsButton_Click(object sender, RoutedEventArgs e)
+        {
+            CaesarCipherInformationsWindow window = new CaesarCipherInformationsWindow();
+            window.Show();
+        }
     }
 }

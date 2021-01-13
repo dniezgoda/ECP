@@ -72,44 +72,86 @@
     <Compile Include="InformationsWindow.xaml.cs">
       <DependentUpon>InformationsWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="window\AESInformationsWindow.xaml.cs">
+      <DependentUpon>AESInformationsWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="window\AESWindow.xaml.cs">
       <DependentUpon>AESWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window\CaesarCipherInformationsWindow.xaml.cs">
+      <DependentUpon>CaesarCipherInformationsWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="window\CaesarCipherWindow.xaml.cs">
       <DependentUpon>CaesarCipherWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="window\DESInformationsWindow.xaml.cs">
+      <DependentUpon>DESInformationsWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="window\DESWindow.xaml.cs">
       <DependentUpon>DESWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window\MD5InformationsWindow.xaml.cs">
+      <DependentUpon>MD5InformationsWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="window\MD5Window.xaml.cs">
       <DependentUpon>MD5Window.xaml</DependentUpon>
     </Compile>
+    <Compile Include="window\PlayfairCipherInformationsWindow.xaml.cs">
+      <DependentUpon>PlayfairCipherInformationsWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="window\PlayfairCipherWindow.xaml.cs">
       <DependentUpon>PlayfairCipherWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window\RC2InformationsWindow.xaml.cs">
+      <DependentUpon>RC2InformationsWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="window\RC2Window.xaml.cs">
       <DependentUpon>RC2Window.xaml</DependentUpon>
     </Compile>
+    <Compile Include="window\ROT13InformationsWindow.xaml.cs">
+      <DependentUpon>ROT13InformationsWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="window\ROT13Window.xaml.cs">
       <DependentUpon>ROT13Window.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window\SHA1InformationsWindow.xaml.cs">
+      <DependentUpon>SHA1InformationsWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="window\SHA1Window.xaml.cs">
       <DependentUpon>SHA1Window.xaml</DependentUpon>
     </Compile>
+    <Compile Include="window\SHA256InformationsWindow.xaml.cs">
+      <DependentUpon>SHA256InformationsWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="window\SHA256Window.xaml.cs">
       <DependentUpon>SHA256Window.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window\SHA384InformationsWindow.xaml.cs">
+      <DependentUpon>SHA384InformationsWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="window\SHA384Window.xaml.cs">
       <DependentUpon>SHA384Window.xaml</DependentUpon>
     </Compile>
+    <Compile Include="window\SHA512InformationsWindow.xaml.cs">
+      <DependentUpon>SHA512InformationsWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="window\SHA512Window.xaml.cs">
       <DependentUpon>SHA512Window.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window\ThreeDESInformationsWindow.xaml.cs">
+      <DependentUpon>ThreeDESInformationsWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="window\ThreeDESWindow.xaml.cs">
       <DependentUpon>ThreeDESWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="window\VinegereCipherInformationsWindow.xaml.cs">
+      <DependentUpon>VinegereCipherInformationsWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="window\VinegereCipherWindow.xaml.cs">
       <DependentUpon>VinegereCipherWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window\XORCipherInformationsWindow.xaml.cs">
+      <DependentUpon>XORCipherInformationsWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="window\XORCipherWindow.xaml.cs">
       <DependentUpon>XORCipherWindow.xaml</DependentUpon>
@@ -130,7 +172,15 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="window\AESInformationsWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="window\AESWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="window\CaesarCipherInformationsWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -138,7 +188,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="window\DESInformationsWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="window\DESWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="window\MD5InformationsWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -146,7 +204,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="window\PlayfairCipherInformationsWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="window\PlayfairCipherWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="window\RC2InformationsWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -154,7 +220,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="window\ROT13InformationsWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="window\ROT13Window.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="window\SHA1InformationsWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -162,7 +236,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="window\SHA256InformationsWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="window\SHA256Window.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="window\SHA384InformationsWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -170,7 +252,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="window\SHA512InformationsWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="window\SHA512Window.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="window\ThreeDESInformationsWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -178,7 +268,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="window\VinegereCipherInformationsWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="window\VinegereCipherWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="window\XORCipherInformationsWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

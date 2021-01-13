@@ -20,9 +20,21 @@ namespace ECP.window
     /// </summary>
     public partial class XORCipherWindow : Window
     {
+        private int number = 1;
+
+        public int Number
+        {
+            get { return number; }
+            set
+            {
+                number = value;
+                TextBoxKey.Text = value.ToString();
+            }
+        }
         public XORCipherWindow()
         {
             InitializeComponent();
+            TextBoxKey.Text = number.ToString();
         }
 
         private void MinimizeButton_Click(object sender, RoutedEventArgs e)
@@ -43,21 +55,46 @@ namespace ECP.window
             }
         }
 
+        private void ClearButton_Click(object sender, RoutedEventArgs e)
+        {
+            TextBoxFirst.Text = "";
+            TextBoxSecond.Text = "";
+        }
+
+        private void UpButton_Click(object sender, RoutedEventArgs e)
+        {
+            Number++;
+        }
+
+        private void DownButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (Number > 1)
+                Number--;
+        }
+
+        private void TextBoxKey_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            if (TextBoxKey == null)
+            {
+                return;
+            }
+
+            if (!int.TryParse(TextBoxKey.Text, out number))
+                TextBoxKey.Text = number.ToString();
+        }
+
         private void ExecuteButton_Click(object sender, RoutedEventArgs e)
         {
             string message = TextBoxFirst.Text;
             string key = TextBoxKey.Text;
 
-            //if (RadioButtonEncrypt.IsChecked == true)
-                TextBoxSecond.Text = XORCipherCode.Encrypt(message, key);
-            //else
-                //TextBoxSecond.Text = XORCipherCode.Decrypt(message, key);
+            TextBoxSecond.Text = XORCipherCode.Encrypt(message, key);
         }
 
-        private void ClearButton_Click(object sender, RoutedEventArgs e)
+        private void InformationsButton_Click(object sender, RoutedEventArgs e)
         {
-            TextBoxFirst.Text = "";
-            TextBoxSecond.Text = "";
+            XORCipherInformationsWindow window = new XORCipherInformationsWindow();
+            window.Show();
         }
     }
 }

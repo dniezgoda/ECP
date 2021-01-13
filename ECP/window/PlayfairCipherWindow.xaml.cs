@@ -60,5 +60,11 @@ namespace ECP.window
             TextBoxFirst.Text = "";
             TextBoxSecond.Text = "";
         }
+
+        private void InformationsButton_Click(object sender, RoutedEventArgs e)
+        {
+            PlayfairCipherInformationsWindow window = new PlayfairCipherInformationsWindow();
+            window.Show();
+        }
     }
 }

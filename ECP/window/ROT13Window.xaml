@@ -7,20 +7,20 @@
         mc:Ignorable="d"
         Title="ROT13Window" Height="1000" Width="700" Background="Black" FontFamily="Courier New" WindowStyle="None" AllowsTransparency="True" MouseMove="Window_MouseMove" ResizeMode="NoResize">
     <Grid>
-        <Label Content="[V1.0.0] EDUKACYJNY PROGRAM KRYPTOGRAFICZNY" Foreground="White" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.052,0.559"/>
+        <Label Content="[V1.0.0] EDUKACYJNY PROGRAM KRYPTOGRAFICZNY" Foreground="AntiqueWhite" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.052,0.559"/>
         <Button Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" Margin="666,5,0,0" VerticalAlignment="Top" Width="24" Height="24" Click="CloseButton_Click">
             <Image Source="C:/Users/dawid/source/repos/ECP/ECP/ico/baseline_close_white_48dp.png" Width="24" Height="24" />
         </Button>
         <Button Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" Margin="640,5,0,0" VerticalAlignment="Top" Width="24" Height="24" Click="MinimizeButton_Click">
             <Image Source="C:/Users/dawid/source/repos/ECP/ECP/ico/baseline_minimize_white_48dp.png" Width="24" Height="24" />
         </Button>
-        <Label Content="ROT13" Foreground="White" HorizontalAlignment="Left" Margin="10,39,0,0" VerticalAlignment="Top"/>
-        <TextBox Name="TextBoxFirst" Background="Transparent" Foreground="White" HorizontalAlignment="Left" Height="250" Margin="10,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="680" />
-        <Button Content="Uruchom" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="82" Margin="10,323,0,0" Click="ExecuteButton_Click" Height="25" />
-        <TextBox Name="TextBoxSecond" Background="Transparent" Foreground="White" HorizontalAlignment="Left" Margin="10,353,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="680" Height="250" IsReadOnly="True"/>
-        <Label Content="Informacje" Foreground="White" HorizontalAlignment="Left" Margin="10,608,0,0" VerticalAlignment="Top"/>
-        <RadioButton Name="RadioButtonEncrypt" Content="Encrypt" Foreground="White" HorizontalAlignment="Left" Margin="97,323,0,0" VerticalAlignment="Top" Height="25" IsChecked="True"/>
-        <RadioButton Name="RadioButtonDecrypt" Content="Decrypt" Foreground="White" HorizontalAlignment="Left" Margin="171,323,0,0" VerticalAlignment="Top" Height="25"/>
-        <Button Content="Wyczyść" Background="Transparent" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Width="82" Margin="248,323,0,0" Click="ClearButton_Click" Height="25" />
+        <Label Content="ROT13" Foreground="AntiqueWhite" HorizontalAlignment="Left" Margin="10,39,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="TextBoxFirst" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" Height="400" Margin="10,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="680" />
+        <Button Content="Uruchom" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="82" Margin="10,473,0,0" Click="ExecuteButton_Click" Height="25" />
+        <TextBox Name="TextBoxSecond" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" Margin="10,503,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="680" Height="400" IsReadOnly="True"/>
+        <RadioButton Name="RadioButtonEncrypt" Content="Encrypt" Foreground="AntiqueWhite" HorizontalAlignment="Left" Margin="97,473,0,0" VerticalAlignment="Top" Height="25" IsChecked="True"/>
+        <RadioButton Name="RadioButtonDecrypt" Content="Decrypt" Foreground="AntiqueWhite" HorizontalAlignment="Left" Margin="171,473,0,0" VerticalAlignment="Top" Height="25"/>
+        <Button Content="Wyczyść" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="82" Margin="248,473,0,0" Click="ClearButton_Click" Height="25" />
+        <Button Content="Informacje" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="82" Margin="608,965,0,0" Click="InformationsButton_Click" Height="25" RenderTransformOrigin="0.585,1.64" />
     </Grid>
 </Window>

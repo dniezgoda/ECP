@@ -58,5 +58,11 @@ namespace ECP.window
             TextBoxFirst.Text = "";
             TextBoxSecond.Text = "";
         }
+
+        private void InformationsButton_Click(object sender, RoutedEventArgs e)
+        {
+            ROT13InformationsWindow window = new ROT13InformationsWindow();
+            window.Show();
+        }
     }
 }

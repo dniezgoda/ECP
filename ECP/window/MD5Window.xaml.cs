@@ -54,5 +54,11 @@ namespace ECP.window
             TextBoxFirst.Text = "";
             TextBoxSecond.Text = "";
         }
+
+        private void InformationsButton_Click(object sender, RoutedEventArgs e)
+        {
+            MD5InformationsWindow window = new MD5InformationsWindow();
+            window.Show();
+        }
     }
 }

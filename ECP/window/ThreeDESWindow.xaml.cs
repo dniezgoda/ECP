@@ -59,5 +59,11 @@ namespace ECP.window
             TextBoxFirst.Text = "";
             TextBoxSecond.Text = "";
         }
+
+        private void InformationsButton_Click(object sender, RoutedEventArgs e)
+        {
+            ThreeDESInformationsWindow window = new ThreeDESInformationsWindow();
+            window.Show();
+        }
     }
 }

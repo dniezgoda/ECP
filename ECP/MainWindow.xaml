@@ -28,6 +28,6 @@
         <Button Content="SHA384" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="352,620,0,0" Click="SHA384Button_Click" Height="100" />
         <Button Content="SHA512" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="10,725,0,0" Click="SHA512Button_Click" Height="100" />
         <Button Content="MD5" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="353,725,0,0" Click="MD5Button_Click" Height="100" />
-        <Button Content="Informacje" Background="Transparent" Foreground="AntiqueWhite" FontSize="20"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="194" Margin="253,941,0,0" Click="Informations_Click" Height="29" />
+        <Button Content="Informacje" Background="Transparent" Foreground="AntiqueWhite" FontSize="20"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="143" Margin="279,940,0,0" Click="InformationsButton_Click" Height="29" />
     </Grid>
 </Window>

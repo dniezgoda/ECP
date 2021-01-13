@@ -59,5 +59,11 @@ namespace ECP.window
             TextBoxFirst.Text = "";
             TextBoxSecond.Text = "";
         }
+
+        private void InformationsButton_Click(object sender, RoutedEventArgs e)
+        {
+            VinegereCipherInformationsWindow window = new VinegereCipherInformationsWindow();
+            window.Show();
+        }
     }
 }
