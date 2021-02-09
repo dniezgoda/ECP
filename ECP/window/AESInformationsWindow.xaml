@@ -15,7 +15,7 @@
             <Image Source="C:/Users/Dawid/Desktop/uczelnia/praca inżynierska/ECP/ECP/ico/baseline_minimize_white_48dp.png" Width="24" Height="24" />
         </Button>
         <Label Content="AES" Foreground="AntiqueWhite" HorizontalAlignment="Left" Margin="10,39,0,0" VerticalAlignment="Top"/>
-        <TextBlock HorizontalAlignment="Left" Foreground="AntiqueWhite" Margin="10,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="394" Width="680"><Run Text="DEFINICJA"/><LineBreak/><Run/><LineBreak/><Run Text="To szyfr blokowy z kluczem symetrycznym, którego "/><Run Text="długość bloku wynosi 128 bitów, natomiast długość klucza jest równa 128, 192 lub 256 bitów."/><LineBreak/><Run/><LineBreak/><Run/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Foreground="AntiqueWhite" Margin="10,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="394" Width="680"><Run Text="DEFINICJA"/><LineBreak/><Run/><LineBreak/><Run Text="Jest t"/><Run Text="o szyfr blokowy z kluczem symetrycznym, którego "/><Run Text="długość bloku wynosi 128 bitów, natomiast długość klucza jest równa 128, 192 lub 256 bitów."/><LineBreak/><Run/><LineBreak/><Run/></TextBlock>
         <Image Source="C:\Users\Dawid\Desktop\uczelnia\praca inżynierska\ECP\ECP\image\AES_scheme.png" HorizontalAlignment="Center" Height="202" Margin="158,467,158,0" VerticalAlignment="Top" Width="384"/>
         <TextBlock HorizontalAlignment="Left" Foreground="AntiqueWhite" Margin="10,674,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="316" Width="680"/>
     </Grid>
