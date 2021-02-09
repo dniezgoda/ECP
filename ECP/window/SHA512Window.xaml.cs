@@ -57,7 +57,7 @@ namespace ECP.window
 
         private void InformationsButton_Click(object sender, RoutedEventArgs e)
         {
-            SHA512InformationsWindow window = new SHA512InformationsWindow();
+            SHA2InformationsWindow window = new SHA2InformationsWindow();
             window.Show();
         }
     }

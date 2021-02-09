@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using ECP.code;
 
 namespace ECP.window
 {
@@ -40,6 +41,12 @@ namespace ECP.window
             {
                 this.DragMove();
             }
+        }
+
+        private void NextButton_Click(object sender, RoutedEventArgs e)
+        {
+            AESInformationsWindow2 window = new AESInformationsWindow2();
+            window.Show();
         }
     }
 }

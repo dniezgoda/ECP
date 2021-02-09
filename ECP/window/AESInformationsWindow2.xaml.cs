@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace ECP.window
 {
     /// <summary>
-    /// Interaction logic for SHA256InformationsWindow.xaml
+    /// Interaction logic for AESInformationsWindow2.xaml
     /// </summary>
-    public partial class SHA256InformationsWindow : Window
+    public partial class AESInformationsWindow2 : Window
     {
-        public SHA256InformationsWindow()
+        public AESInformationsWindow2()
         {
             InitializeComponent();
         }

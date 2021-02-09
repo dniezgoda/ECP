@@ -75,6 +75,9 @@
     <Compile Include="window\AESInformationsWindow.xaml.cs">
       <DependentUpon>AESInformationsWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="window\AESInformationsWindow2.xaml.cs">
+      <DependentUpon>AESInformationsWindow2.xaml</DependentUpon>
+    </Compile>
     <Compile Include="window\AESWindow.xaml.cs">
       <DependentUpon>AESWindow.xaml</DependentUpon>
     </Compile>
@@ -126,20 +129,14 @@
     <Compile Include="window\SHA1Window.xaml.cs">
       <DependentUpon>SHA1Window.xaml</DependentUpon>
     </Compile>
-    <Compile Include="window\SHA256InformationsWindow.xaml.cs">
-      <DependentUpon>SHA256InformationsWindow.xaml</DependentUpon>
-    </Compile>
     <Compile Include="window\SHA256Window.xaml.cs">
       <DependentUpon>SHA256Window.xaml</DependentUpon>
     </Compile>
-    <Compile Include="window\SHA384InformationsWindow.xaml.cs">
-      <DependentUpon>SHA384InformationsWindow.xaml</DependentUpon>
+    <Compile Include="window\SHA2InformationsWindow.xaml.cs">
+      <DependentUpon>SHA2InformationsWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="window\SHA384Window.xaml.cs">
       <DependentUpon>SHA384Window.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="window\SHA512InformationsWindow.xaml.cs">
-      <DependentUpon>SHA512InformationsWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="window\SHA512Window.xaml.cs">
       <DependentUpon>SHA512Window.xaml</DependentUpon>
@@ -179,6 +176,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="window\AESInformationsWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="window\AESInformationsWindow2.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -250,23 +251,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="window\SHA256InformationsWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="window\SHA256Window.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="window\SHA384InformationsWindow.xaml">
+    <Page Include="window\SHA2InformationsWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="window\SHA384Window.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="window\SHA512InformationsWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -332,9 +325,6 @@
     <Resource Include="ico\baseline_minimize_white_48dp.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Image1.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="image\ROT13_table.png" />
   </ItemGroup>
   <ItemGroup>
@@ -348,7 +338,7 @@
     <Resource Include="image\Playfair_table.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="image\Vigenere_table.png" />
+    <Resource Include="image\VigenereAndXOR_table.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="image\DES_scheme.png" />
@@ -364,6 +354,21 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="image\AES_scheme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\SHA1_scheme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\SHA2_scheme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\MD5_scheme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\SHA1_scheme2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\MD5_scheme2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

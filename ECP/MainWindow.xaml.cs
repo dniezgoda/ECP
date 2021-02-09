@@ -133,5 +133,11 @@ namespace ECP
             InformationsWindow window = new InformationsWindow();
             window.Show();
         }
+
+        private void AttacksButton_Click(object sender, RoutedEventArgs e)
+        {
+            //AttacksWindow window = new AttacksWindow();
+            //window.Show();
+        }
     }
 }
