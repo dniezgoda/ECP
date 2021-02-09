@@ -41,5 +41,11 @@ namespace ECP.window
                 this.DragMove();
             }
         }
+
+        private void NextButton_Click(object sender, RoutedEventArgs e)
+        {
+            PlayfairCipherInformationsWindow2 window = new PlayfairCipherInformationsWindow2();
+            window.Show();
+        }
     }
 }

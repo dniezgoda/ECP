@@ -62,9 +62,9 @@ namespace ECP
             window.Show();
         }
 
-        private void VinegereCipherButton_Click(object sender, RoutedEventArgs e)
+        private void VigenereCipherButton_Click(object sender, RoutedEventArgs e)
         {
-            VinegereCipherWindow window = new VinegereCipherWindow();
+            VigenereCipherWindow window = new VigenereCipherWindow();
             window.Show();
         }
 

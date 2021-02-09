@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ECP.code
 {
-    public class VinegereCipherCode
+    public class VigenereCipherCode
     {
 		private static int Mod(int a, int b)
 		{

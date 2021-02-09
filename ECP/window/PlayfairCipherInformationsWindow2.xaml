@@ -1,0 +1,19 @@
+﻿<Window x:Class="ECP.window.PlayfairCipherInformationsWindow2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ECP.window"
+        mc:Ignorable="d"
+        Title="PlayfairCipherInformationsWindow2" Height="1000" Width="700" Background="Black" FontFamily="Courier New" WindowStyle="None" AllowsTransparency="True" MouseMove="Window_MouseMove" ResizeMode="NoResize">
+    <Grid>
+        <Label Content="[V1.0.0] EDUKACYJNY PROGRAM KRYPTOGRAFICZNY" Foreground="AntiqueWhite" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.052,0.559"/>
+        <Button Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" Margin="666,5,0,0" VerticalAlignment="Top" Width="24" Height="24" Click="CloseButton_Click">
+            <Image Source="C:/Users/Dawid/Desktop/uczelnia/praca inżynierska/ECP/ECP/ico/baseline_close_white_48dp.png" Width="24" Height="24" />
+        </Button>
+        <Button Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" Margin="640,5,0,0" VerticalAlignment="Top" Width="24" Height="24" Click="MinimizeButton_Click">
+            <Image Source="C:/Users/Dawid/Desktop/uczelnia/praca inżynierska/ECP/ECP/ico/baseline_minimize_white_48dp.png" Width="24" Height="24" />
+        </Button>
+        <TextBlock HorizontalAlignment="Left" Foreground="AntiqueWhite" Margin="10,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="266" Width="680"><Run Text="KRYPTOANALIZA"/><LineBreak/><Run/><LineBreak/><Run Text="Analiza częstotliwości występowania podwójnych znaków to ogólna metoda łamania tego szyfru. Prostota szyfru, którego charakteryzują pewne cechy, ułatwia jego złamanie. Można zauważyć, że pary liter i ich odwrotności (np. AC i CA) są przekształcane w te same znaki w szyfrogramie. Na podstawie takiej wady można tworzyć bazy słów zawierających te same kombinacje."/><LineBreak/><Run Text="Następną metodą łamania szyfru jest wypełnienie tabeli losowymi znakami i próbach odkodowania wiadomości posługując się tą tabelą. Następnie tablica jest nieco zmieniana i następuje ponowne odszyfrowanie. Zmiany w tabeli, które dały wymierny rezultat w odtajnianiu wiadomości, należy zapamiętać i kontynuować aż do następnej poprawy tekstu."/><LineBreak/><Run Text="Trzecim sposobem są próby odgadywania tekstu jawnego. Mając do dyspozycji szyfrogram i prawdopodobne fragmenty oryginalnego tekstu, można odkodować tablicę używaną do szyfrowania tekstu."/><LineBreak/><Run/><LineBreak/><Run Text="PRZYKŁADY"/><LineBreak/><Run/><LineBreak/><Run Text="Klucz: password                                                             "/><Run Text="&#x9; Klucz: klucz"/><LineBreak/><Run Text="To zdanie jest zakodowane."/><Run Text=" &#x9;&#x9;&#x9;&#x9;&#x9;&#x9; To zdanie jest zakodowane."/><LineBreak/><Run Text="Ze vesmkc kcon voteeaostb."/><Run Text="&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9; Kt uffgmd mdoy kfataqtdmf.&#x9;"/></TextBlock>
+    </Grid>
+</Window>

@@ -1,0 +1,21 @@
+﻿<Window x:Class="ECP.window.DESInformationsWindow2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ECP.window"
+        mc:Ignorable="d"
+        Title="DESInformationsWindow2" Height="1000" Width="700" Background="Black" FontFamily="Courier New" WindowStyle="None" AllowsTransparency="True" MouseMove="Window_MouseMove" ResizeMode="NoResize">
+    <Grid>
+        <Label Content="[V1.0.0] EDUKACYJNY PROGRAM KRYPTOGRAFICZNY" Foreground="AntiqueWhite" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.052,0.559"/>
+        <Button Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" Margin="666,5,0,0" VerticalAlignment="Top" Width="24" Height="24" Click="CloseButton_Click">
+            <Image Source="C:/Users/Dawid/Desktop/uczelnia/praca inżynierska/ECP/ECP/ico/baseline_close_white_48dp.png" Width="24" Height="24" />
+        </Button>
+        <Button Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" Margin="640,5,0,0" VerticalAlignment="Top" Width="24" Height="24" Click="MinimizeButton_Click">
+            <Image Source="C:/Users/Dawid/Desktop/uczelnia/praca inżynierska/ECP/ECP/ico/baseline_minimize_white_48dp.png" Width="24" Height="24" />
+        </Button>
+        <TextBlock HorizontalAlignment="Left" Foreground="AntiqueWhite" Margin="10,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="428" Width="680"><Run Text="ZASTOSOWANIE"/><LineBreak/><Run/><LineBreak/><Run Text="W 1981 roku został uznany za standard ANSI dla sektora prywatnego. W 1981 roku zmieniono jego nazwę na DEA (Data Encryption Algorithm). 23 listopada 1976 roku został użyty jako standard federalny, używany do szyfrowania różnego rodzaju nietajnych danych rządu USA. "/><Run Text="Od wielu lat algorytm uważany jest za mało efektywny."/><LineBreak/><Run/><LineBreak/><Run Text="KRYPTOANALIZA"/><LineBreak/><Run/><LineBreak/><Run Text="DES jest stosunkowo nowym, dobrze i efektywnie zaprojektowanym algorytmem. Z obecną mocą obliczeniową komputerów może zostać złamany w kilka dni za pomocą ataku siłowego, głównie przez to"/><Run Text=","/><Run Text=" że jego klucz jest względnie krótki o długości 56 bitów."/><LineBreak/><Run Text="Gdy mamy do dyspozycji fragment tekstu jawnego to poziom trudności odszyfrowania znacznie spada. Kryptoanalityk wyszukuje 2^56 wariantów kluczy. Jeżeli tekst próbny w danym wariancie klucza jest równy tekstowi jawnemu, to znaczy, że znaleziono sekretny klucz. Znajomość dwóch lub trzech bloków tekstu jawnego wystarczy do znalezienia sekretnego klucza."/><LineBreak/><Run/><LineBreak/><Run Text="PRZYKŁADY"/><LineBreak/><Run/><LineBreak/><Run Text="Klucz: password"/><Run Text="&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;    "/><Run Text=" "/><Run Text="Klucz: secretly"/><LineBreak/><Run Text="To zdanie jest zakodowane.&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9; To zdanie jest zakodowane."/><LineBreak/><Run Text="kdwxNfxDItFdFdb+N/f/GUZbw26SzSBYF9bUkEncRpY="/><Run Text="&#x9;   2W+X2C3Ba157SfT/Pwjx3qIesxVskCRc1SvdvT9IjX8="/></TextBlock>
+
+    </Grid>
+</Window>
+

@@ -15,14 +15,15 @@ using System.Windows.Shapes;
 namespace ECP.window
 {
     /// <summary>
-    /// Interaction logic for VinegereCipherInformationsWindow.xaml
+    /// Interaction logic for PlayfairCipherInformationsWindow2.xaml
     /// </summary>
-    public partial class VinegereCipherInformationsWindow : Window
+    public partial class PlayfairCipherInformationsWindow2 : Window
     {
-        public VinegereCipherInformationsWindow()
+        public PlayfairCipherInformationsWindow2()
         {
             InitializeComponent();
         }
+
 
         private void MinimizeButton_Click(object sender, RoutedEventArgs e)
         {

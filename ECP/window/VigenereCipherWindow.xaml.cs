@@ -16,11 +16,11 @@ using ECP.code;
 namespace ECP.window
 {
     /// <summary>
-    /// Interaction logic for VinegereCipherWindow.xaml
+    /// Interaction logic for VigenereCipherWindow.xaml
     /// </summary>
-    public partial class VinegereCipherWindow : Window
+    public partial class VigenereCipherWindow : Window
     {
-        public VinegereCipherWindow()
+        public VigenereCipherWindow()
         {
             InitializeComponent();
         }
@@ -49,9 +49,9 @@ namespace ECP.window
             string key = TextBoxKey.Text;
 
             if (RadioButtonEncrypt.IsChecked == true)
-                TextBoxSecond.Text = VinegereCipherCode.Encrypt(message, key);
+                TextBoxSecond.Text = VigenereCipherCode.Encrypt(message, key);
             else
-                TextBoxSecond.Text = VinegereCipherCode.Decrypt(message, key);
+                TextBoxSecond.Text = VigenereCipherCode.Decrypt(message, key);
         }
 
         private void ClearButton_Click(object sender, RoutedEventArgs e)
@@ -62,7 +62,7 @@ namespace ECP.window
 
         private void InformationsButton_Click(object sender, RoutedEventArgs e)
         {
-            VinegereCipherInformationsWindow window = new VinegereCipherInformationsWindow();
+            VigenereCipherInformationsWindow window = new VigenereCipherInformationsWindow();
             window.Show();
         }
     }

@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace ECP.window
 {
     /// <summary>
-    /// Interaction logic for DESInformationsWindow.xaml
+    /// Interaction logic for DESInformationsWindow2.xaml
     /// </summary>
-    public partial class DESInformationsWindow : Window
+    public partial class DESInformationsWindow2 : Window
     {
-        public DESInformationsWindow()
+        public DESInformationsWindow2()
         {
             InitializeComponent();
         }
@@ -40,12 +40,6 @@ namespace ECP.window
             {
                 this.DragMove();
             }
-        }
-
-        private void NextButton_Click(object sender, RoutedEventArgs e)
-        {
-            DESInformationsWindow2 window = new DESInformationsWindow2();
-            window.Show();
         }
     }
 }

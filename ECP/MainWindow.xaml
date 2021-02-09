@@ -9,15 +9,15 @@
     <Grid>
         <Label Content="[V1.0.0] EDUKACYJNY PROGRAM KRYPTOGRAFICZNY" FontSize="14" Foreground="AntiqueWhite" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.052,0.559" Height="31" Width="625"/>
         <Button Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" Margin="667,5,0,0" VerticalAlignment="Top" Width="24" Height="24" Click="CloseButton_Click">
-            <Image Source="C:/Users/dawid/source/repos/ECP/ECP/ico/baseline_close_white_48dp.png" Width="24" Height="24" />
+            <Image Source="C:/Users/Dawid/Desktop/uczelnia/praca inżynierska/ECP/ECP/ico/baseline_close_white_48dp.png" Width="24" Height="24" />
         </Button>
         <Button Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" Margin="640,5,0,0" VerticalAlignment="Top" Width="24" Height="24" Click="MinimizeButton_Click">
-            <Image Source="C:/Users/dawid/source/repos/ECP/ECP/ico/baseline_minimize_white_48dp.png" Width="24" Height="24" />
+            <Image Source="C:/Users/Dawid/Desktop/uczelnia/praca inżynierska/ECP/ECP/ico/baseline_minimize_white_48dp.png" Width="24" Height="24" />
         </Button>
         <Button Content="ROT13" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="10,95,0,0" Click="ROT13Button_Click" Height="100" />
         <Button Content="Cezar" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" Margin="352,95,0,0" VerticalAlignment="Top" Width="338" Click="CaesarCipherButton_Click" Height="100" />
         <Button Content="Playfair" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="10,200,0,0" Click="PlayfairCipherButton_Click" Height="100" />
-        <Button Content="Vigenère" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="352,200,0,0" Click="VinegereCipherButton_Click" Height="100" />
+        <Button Content="Vigenère" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="352,200,0,0" Click="VigenereCipherButton_Click" Height="100" />
         <Button Content="XOR" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="10,305,0,0" Click="XORCipherButton_Click" Height="100" />
         <Button Content="DES" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="352,305,0,0" Click="DESButton_Click" Height="100" />
         <Button Content="RC2" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="352,410,0,0" Click="RC2Button_Click" Height="100" />

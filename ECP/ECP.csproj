@@ -67,7 +67,7 @@
     <Compile Include="code\SHA384Code.cs" />
     <Compile Include="code\SHA512Code.cs" />
     <Compile Include="code\ThreeDESCode.cs" />
-    <Compile Include="code\VinegereCipherCode.cs" />
+    <Compile Include="code\VigenereCipherCode.cs" />
     <Compile Include="code\XORCipherCode.cs" />
     <Compile Include="InformationsWindow.xaml.cs">
       <DependentUpon>InformationsWindow.xaml</DependentUpon>
@@ -87,6 +87,9 @@
     <Compile Include="window\DESInformationsWindow.xaml.cs">
       <DependentUpon>DESInformationsWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="window\DESInformationsWindow2.xaml.cs">
+      <DependentUpon>DESInformationsWindow2.xaml</DependentUpon>
+    </Compile>
     <Compile Include="window\DESWindow.xaml.cs">
       <DependentUpon>DESWindow.xaml</DependentUpon>
     </Compile>
@@ -98,6 +101,9 @@
     </Compile>
     <Compile Include="window\PlayfairCipherInformationsWindow.xaml.cs">
       <DependentUpon>PlayfairCipherInformationsWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="window\PlayfairCipherInformationsWindow2.xaml.cs">
+      <DependentUpon>PlayfairCipherInformationsWindow2.xaml</DependentUpon>
     </Compile>
     <Compile Include="window\PlayfairCipherWindow.xaml.cs">
       <DependentUpon>PlayfairCipherWindow.xaml</DependentUpon>
@@ -144,11 +150,11 @@
     <Compile Include="window\ThreeDESWindow.xaml.cs">
       <DependentUpon>ThreeDESWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="window\VinegereCipherInformationsWindow.xaml.cs">
-      <DependentUpon>VinegereCipherInformationsWindow.xaml</DependentUpon>
+    <Compile Include="window\VigenereCipherInformationsWindow.xaml.cs">
+      <DependentUpon>VigenereCipherInformationsWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="window\VinegereCipherWindow.xaml.cs">
-      <DependentUpon>VinegereCipherWindow.xaml</DependentUpon>
+    <Compile Include="window\VigenereCipherWindow.xaml.cs">
+      <DependentUpon>VigenereCipherWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="window\XORCipherInformationsWindow.xaml.cs">
       <DependentUpon>XORCipherInformationsWindow.xaml</DependentUpon>
@@ -192,6 +198,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="window\DESInformationsWindow2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="window\DESWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -205,6 +215,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="window\PlayfairCipherInformationsWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="window\PlayfairCipherInformationsWindow2.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -268,11 +282,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="window\VinegereCipherInformationsWindow.xaml">
+    <Page Include="window\VigenereCipherInformationsWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="window\VinegereCipherWindow.xaml">
+    <Page Include="window\VigenereCipherWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -316,6 +330,40 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="ico\baseline_minimize_white_48dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\ROT13_table.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\CaesarCipher_table.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\CaesarCipher_pattern.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\Playfair_example.jpg" />
+    <Resource Include="image\Playfair_table.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\Vigenere_table.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\DES_scheme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\3DES_scheme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\3DES_pattern.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\RC2_scheme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="image\AES_scheme.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

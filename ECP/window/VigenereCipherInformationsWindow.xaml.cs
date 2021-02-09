@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace ECP.window
 {
     /// <summary>
-    /// Interaction logic for DESInformationsWindow.xaml
+    /// Interaction logic for VigenereCipherInformationsWindow.xaml
     /// </summary>
-    public partial class DESInformationsWindow : Window
+    public partial class VigenereCipherInformationsWindow : Window
     {
-        public DESInformationsWindow()
+        public VigenereCipherInformationsWindow()
         {
             InitializeComponent();
         }
@@ -40,12 +40,6 @@ namespace ECP.window
             {
                 this.DragMove();
             }
-        }
-
-        private void NextButton_Click(object sender, RoutedEventArgs e)
-        {
-            DESInformationsWindow2 window = new DESInformationsWindow2();
-            window.Show();
         }
     }
 }
