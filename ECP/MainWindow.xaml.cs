@@ -136,8 +136,8 @@ namespace ECP
 
         private void AttacksButton_Click(object sender, RoutedEventArgs e)
         {
-            //AttacksWindow window = new AttacksWindow();
-            //window.Show();
+            AttacksWindow window = new AttacksWindow();
+            window.Show();
         }
     }
 }

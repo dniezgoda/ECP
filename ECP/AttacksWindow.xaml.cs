@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace ECP
 {
     /// <summary>
-    /// Interaction logic for InformationsWindow.xaml
+    /// Interaction logic for AttacksWindow.xaml
     /// </summary>
-    public partial class InformationsWindow : Window
+    public partial class AttacksWindow : Window
     {
-        public InformationsWindow()
+        public AttacksWindow()
         {
             InitializeComponent();
         }

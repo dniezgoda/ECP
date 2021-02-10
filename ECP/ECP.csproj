@@ -55,6 +55,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AttacksWindow.xaml.cs">
+      <DependentUpon>AttacksWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="code\AESCode.cs" />
     <Compile Include="code\CaesarCipherCode.cs" />
     <Compile Include="code\DESCode.cs" />
@@ -159,6 +162,10 @@
     <Compile Include="window\XORCipherWindow.xaml.cs">
       <DependentUpon>XORCipherWindow.xaml</DependentUpon>
     </Compile>
+    <Page Include="AttacksWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="InformationsWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
