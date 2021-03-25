@@ -21,6 +21,6 @@
         <Label Foreground="AntiqueWhite" HorizontalAlignment="Left" Margin="560,964,0,0" VerticalAlignment="Top" Width="130" >
             <Italic>Dawid Niezgoda</Italic>
         </Label>
-        <Label Content="PIERWSZA WERSJA PROGRAMU ZAWIERA:&#xD;&#xA;&#xA;ROT13 Cezar Playfair Vigenère XOR DES 3DES RC2 AES &#xA;SHA1 SHA256 SHA384 SHA512 MD5" Foreground="AntiqueWhite" HorizontalAlignment="Left" Margin="10,844,0,0" VerticalAlignment="Top" Width="680" Height="76"/>
+        <Label Content="PIERWSZA WERSJA PROGRAMU ZAWIERA:&#xA;&#xA;ROT13 Cezar Playfair Vigenère DES 3DES RC2 AES &#xA;SHA1 SHA256 SHA384 SHA512 MD5" Foreground="AntiqueWhite" HorizontalAlignment="Left" Margin="10,844,0,0" VerticalAlignment="Top" Width="680" Height="76"/>
     </Grid>
 </Window>

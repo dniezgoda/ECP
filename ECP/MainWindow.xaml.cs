@@ -68,12 +68,6 @@ namespace ECP
             window.Show();
         }
 
-        private void XORCipherButton_Click(object sender, RoutedEventArgs e)
-        {
-            XORCipherWindow window = new XORCipherWindow();
-            window.Show();
-        }
-
         private void DESButton_Click(object sender, RoutedEventArgs e)
         {
             DESWindow window = new DESWindow();

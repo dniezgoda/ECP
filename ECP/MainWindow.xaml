@@ -18,16 +18,15 @@
         <Button Content="Cezar" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" Margin="352,95,0,0" VerticalAlignment="Top" Width="338" Click="CaesarCipherButton_Click" Height="100" />
         <Button Content="Playfair" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="10,200,0,0" Click="PlayfairCipherButton_Click" Height="100" />
         <Button Content="Vigenère" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="352,200,0,0" Click="VigenereCipherButton_Click" Height="100" />
-        <Button Content="XOR" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="10,305,0,0" Click="XORCipherButton_Click" Height="100" />
-        <Button Content="DES" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="352,305,0,0" Click="DESButton_Click" Height="100" />
-        <Button Content="RC2" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="352,410,0,0" Click="RC2Button_Click" Height="100" />
-        <Button Content="3DES" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="10,410,0,0" Click="ThreeDESButton_Click" Height="100" />
-        <Button Content="AES" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="10,515,0,0" Click="AESButton_Click" Height="100" />
-        <Button Content="SHA1" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="352,515,0,0" Click="SHA1Button_Click" Height="100" />
-        <Button Content="SHA256" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="10,620,0,0" Click="SHA256Button_Click" Height="100" />
-        <Button Content="SHA384" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="352,620,0,0" Click="SHA384Button_Click" Height="100" />
-        <Button Content="SHA512" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="10,725,0,0" Click="SHA512Button_Click" Height="100" />
-        <Button Content="MD5" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="353,725,0,0" Click="MD5Button_Click" Height="100" />
+        <Button Content="DES" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="10,305,0,0" Click="DESButton_Click" Height="100" />
+        <Button Content="RC2" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="10,410,0,0" Click="RC2Button_Click" Height="100" />
+        <Button Content="3DES" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="353,305,0,0" Click="ThreeDESButton_Click" Height="100" />
+        <Button Content="AES" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="353,410,0,0" Click="AESButton_Click" Height="100" />
+        <Button Content="SHA1" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="10,515,0,0" Click="SHA1Button_Click" Height="100" />
+        <Button Content="SHA256" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="353,515,0,0" Click="SHA256Button_Click" Height="100" />
+        <Button Content="SHA384" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="10,620,0,0" Click="SHA384Button_Click" Height="100" />
+        <Button Content="SHA512" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="353,620,0,0" Click="SHA512Button_Click" Height="100" />
+        <Button Content="MD5" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="338" Margin="181,725,0,0" Click="MD5Button_Click" Height="100" />
         <Button Content="Informacje" Background="Transparent" Foreground="AntiqueWhite" FontSize="20"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="143" Margin="547,961,0,0" Click="InformationsButton_Click" Height="29" />
         <Button Content="Ataki" Background="Transparent" Foreground="AntiqueWhite" FontSize="20"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="143" Margin="10,961,0,0" Click="AttacksButton_Click" Height="29" />
     </Grid>

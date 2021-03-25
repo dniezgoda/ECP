@@ -71,7 +71,6 @@
     <Compile Include="code\SHA512Code.cs" />
     <Compile Include="code\ThreeDESCode.cs" />
     <Compile Include="code\VigenereCipherCode.cs" />
-    <Compile Include="code\XORCipherCode.cs" />
     <Compile Include="InformationsWindow.xaml.cs">
       <DependentUpon>InformationsWindow.xaml</DependentUpon>
     </Compile>
@@ -155,12 +154,6 @@
     </Compile>
     <Compile Include="window\VigenereCipherWindow.xaml.cs">
       <DependentUpon>VigenereCipherWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="window\XORCipherInformationsWindow.xaml.cs">
-      <DependentUpon>XORCipherInformationsWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="window\XORCipherWindow.xaml.cs">
-      <DependentUpon>XORCipherWindow.xaml</DependentUpon>
     </Compile>
     <Page Include="AttacksWindow.xaml">
       <SubType>Designer</SubType>
@@ -287,14 +280,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="window\VigenereCipherWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="window\XORCipherInformationsWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="window\XORCipherWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
