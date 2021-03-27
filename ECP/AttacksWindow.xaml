@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ECP"
         mc:Ignorable="d"
+        Icon="C:/Users/Dawid Niezgoda/Desktop/uczelnia/praca inżynierska/ECP/ECP/icon.ico"
         Title="AttacksWindow" Height="1000" Width="700" Background="Black" FontSize="14" FontFamily="Courier New" WindowStyle="None" AllowsTransparency="True" MouseMove="Window_MouseMove" ResizeMode="NoResize">
     <Grid>
+
+        <Image Source="background.png" Opacity="0.2" HorizontalAlignment="Left" Height="512" Margin="127,152,0,0" VerticalAlignment="Top" Width="448"/>
         <Label Content="[V1.0.0] EDUKACYJNY PROGRAM KRYPTOGRAFICZNY" FontSize="14" Foreground="AntiqueWhite" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.052,0.559" Height="31" Width="625"/>
         <Button Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" Margin="667,5,0,0" VerticalAlignment="Top" Width="24" Height="24" Click="CloseButton_Click">
             <Image Source="C:/Users/Dawid Niezgoda/Desktop/uczelnia/praca inżynierska/ECP/ECP/ico/baseline_close_white_48dp.png" Width="24" Height="24" />

@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ECP.window"
         mc:Ignorable="d"
+        Icon="C:/Users/Dawid Niezgoda/Desktop/uczelnia/praca inżynierska/ECP/ECP/icon.ico"
         Title="SHA1Window" Height="1000" Width="700" Background="Black" FontFamily="Courier New" WindowStyle="None" AllowsTransparency="True" MouseMove="Window_MouseMove" ResizeMode="NoResize">
     <Grid>
+        <Image Source="/background.png" Opacity="0.2" HorizontalAlignment="Left" Height="512" Margin="127,152,0,0" VerticalAlignment="Top" Width="448"/>
         <Label Content="[V1.0.0] EDUKACYJNY PROGRAM KRYPTOGRAFICZNY" Foreground="AntiqueWhite" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.052,0.559"/>
         <Button Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" Margin="666,5,0,0" VerticalAlignment="Top" Width="24" Height="24" Click="CloseButton_Click">
             <Image Source="C:/Users/Dawid Niezgoda/Desktop/uczelnia/praca inżynierska/ECP/ECP/ico/baseline_close_white_48dp.png" Width="24" Height="24" />
@@ -20,5 +22,6 @@
         <TextBox Name="TextBoxSecond" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" Margin="10,503,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="680" Height="400" IsReadOnly="True"/>
         <Button Content="Wyczyść" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="82" Margin="97,473,0,0" Click="ClearButton_Click" Height="25" />
         <Button Content="Informacje" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="82" Margin="608,965,0,0" Click="InformationsButton_Click" Height="25" RenderTransformOrigin="0.585,1.64" />
+        <Label Content="SZYFR HASZUJĄCY" Background="Transparent" Foreground="AntiqueWhite" FontSize="24" HorizontalAlignment="Left" Margin="11,908,0,0" VerticalAlignment="Top" Height="52" Width="679"/>
     </Grid>
 </Window>

@@ -34,6 +34,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -326,13 +329,6 @@
     <Resource Include="image\CaesarCipher_pattern.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="image\Playfair_example.jpg" />
-    <Resource Include="image\Playfair_table.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="image\VigenereAndXOR_table.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="image\DES_scheme.png" />
   </ItemGroup>
   <ItemGroup>
@@ -357,10 +353,10 @@
     <Resource Include="image\MD5_scheme.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="image\SHA1_scheme2.png" />
+    <Resource Include="background.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="image\MD5_scheme2.png" />
+    <Resource Include="icon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
