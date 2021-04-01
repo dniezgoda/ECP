@@ -20,7 +20,7 @@
         <TextBox Name="TextBoxFirst" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" Height="400" Margin="10,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="680" />
         <Button Content="Uruchom" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="82" Margin="10,473,0,0" Click="ExecuteButton_Click" Height="25" />
         <TextBox Name="TextBoxSecond" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" Margin="10,503,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="680" Height="401" IsReadOnly="True"/>
-        <RadioButton Name="RadioButtonEncrypt" Content="sZYFRUJ" Foreground="AntiqueWhite" HorizontalAlignment="Left" Margin="97,473,0,0" VerticalAlignment="Top" Height="25" IsChecked="True"/>
+        <RadioButton Name="RadioButtonEncrypt" Content="Szyfruj" Foreground="AntiqueWhite" HorizontalAlignment="Left" Margin="97,473,0,0" VerticalAlignment="Top" Height="25" IsChecked="True" Checked="RadioButtonEncrypt_Checked"/>
         <RadioButton Name="RadioButtonDecrypt" Content="Deszyfruj" Foreground="AntiqueWhite" HorizontalAlignment="Left" Margin="171,473,0,0" VerticalAlignment="Top" Height="25"/>
         <Button Content="Wyczyść" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" VerticalAlignment="Top" Width="82" Margin="260,473,0,0" Click="ClearButton_Click" Height="25" />
         <Label Content="Klucz :" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" Margin="347,473,0,0" VerticalAlignment="Top" Width="59"/>
