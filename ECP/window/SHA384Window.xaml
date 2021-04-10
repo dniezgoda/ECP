@@ -5,16 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ECP.window"
         mc:Ignorable="d"
-        Icon="C:/Users/Dawid Niezgoda/Desktop/uczelnia/praca inżynierska/ECP/ECP/icon.ico"
+        Icon="/icon.ico"
         Title="SHA384Window" Height="1000" Width="700" Background="Black" FontFamily="Courier New" WindowStyle="None" AllowsTransparency="True" MouseMove="Window_MouseMove" ResizeMode="NoResize">
     <Grid>
         <Image Source="/background.png" Opacity="0.2" HorizontalAlignment="Left" Height="512" Margin="127,152,0,0" VerticalAlignment="Top" Width="448"/>
         <Label Content="[V1.0.0] EDUKACYJNY PROGRAM KRYPTOGRAFICZNY" Foreground="AntiqueWhite" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.052,0.559"/>
         <Button Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" Margin="666,5,0,0" VerticalAlignment="Top" Width="24" Height="24" Click="CloseButton_Click">
-            <Image Source="C:/Users/Dawid Niezgoda/Desktop/uczelnia/praca inżynierska/ECP/ECP/ico/baseline_close_white_48dp.png" Width="24" Height="24" />
+            <Image Source="../ico/baseline_close_white_48dp.png" Width="24" Height="24" />
         </Button>
         <Button Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" Margin="640,5,0,0" VerticalAlignment="Top" Width="24" Height="24" Click="MinimizeButton_Click">
-            <Image Source="C:/Users/Dawid Niezgoda/Desktop/uczelnia/praca inżynierska/ECP/ECP/ico/baseline_minimize_white_48dp.png" Width="24" Height="24" />
+            <Image Source="../ico/baseline_minimize_white_48dp.png" Width="24" Height="24" />
         </Button>
         <Label Content="SHA384" Foreground="AntiqueWhite" HorizontalAlignment="Left" Margin="10,39,0,0" VerticalAlignment="Top"/>
         <TextBox Name="TextBoxFirst" Background="Transparent" Foreground="AntiqueWhite" HorizontalAlignment="Left" Height="400" Margin="10,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="680" />

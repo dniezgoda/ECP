@@ -5,19 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ECP.window"
         mc:Ignorable="d"
-        Icon="C:/Users/Dawid Niezgoda/Desktop/uczelnia/praca inżynierska/ECP/ECP/icon.ico"
+        Icon="/icon.ico"
         Title="SHA1InformationsWindow" Height="1000" Width="700" Background="Black" FontFamily="Courier New" WindowStyle="None" AllowsTransparency="True" MouseMove="Window_MouseMove" ResizeMode="NoResize">
     <Grid>
         <Image Source="/background.png" Opacity="0.2" HorizontalAlignment="Left" Height="512" Margin="127,152,0,0" VerticalAlignment="Top" Width="448"/>
         <Label Content="[V1.0.0] EDUKACYJNY PROGRAM KRYPTOGRAFICZNY" Foreground="AntiqueWhite" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.052,0.559"/>
         <Button Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" Margin="666,5,0,0" VerticalAlignment="Top" Width="24" Height="24" Click="CloseButton_Click">
-            <Image Source="C:/Users/Dawid Niezgoda/Desktop/uczelnia/praca inżynierska/ECP/ECP/ico/baseline_close_white_48dp.png" Width="24" Height="24" />
+            <Image Source="../ico/baseline_close_white_48dp.png" Width="24" Height="24" />
         </Button>
         <Button Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" Margin="640,5,0,0" VerticalAlignment="Top" Width="24" Height="24" Click="MinimizeButton_Click">
-            <Image Source="C:/Users/Dawid Niezgoda/Desktop/uczelnia/praca inżynierska/ECP/ECP/ico/baseline_minimize_white_48dp.png" Width="24" Height="24" />
+            <Image Source="../ico/baseline_minimize_white_48dp.png" Width="24" Height="24" />
         </Button>
         <Label Content="SHA1" Foreground="AntiqueWhite" HorizontalAlignment="Left" Margin="10,39,0,0" VerticalAlignment="Top"/>
-        <Image Source="C:\Users\Dawid Niezgoda\Desktop\uczelnia\praca inżynierska\ECP\ECP\image\SHA1_scheme.png" HorizontalAlignment="Right" Height="351" Margin="0,269,224,0" VerticalAlignment="Top" Width="302"/>
+        <Image Source="..\image\SHA1_scheme.png" HorizontalAlignment="Right" Height="351" Margin="0,269,224,0" VerticalAlignment="Top" Width="302"/>
         <TextBlock HorizontalAlignment="Left" Foreground="AntiqueWhite" Margin="10,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="196" Width="680"><Run Text="DEFINICJA"/><LineBreak/><Run/><LineBreak/><Run Text="Secure Hash Algorithm to zbiór podobnych do siebie kryptograficznych funkcji skrótu. Autorem tego typu algorytmów kryptograficznych jest NSA (National Security Agency). Zostały opublikowane przez National Institute of Standards and Technology."/><LineBreak/><Run Text="Pierwszy algorytm tej rodziny został opublikowany w 1993 roku pod nazwą SHA (nieoficjalnie SHA0). Następny określany jako SHA1 został opublikowany w 1995 roku i stał się zastępcą wadliwego SHA0."/><LineBreak/><Run/><LineBreak/><Run Text="ALGORYTM"/><LineBreak/><Run/><LineBreak/><Run Text="Algorytm SHA1 tworzy 160-bitowy skrót z wiadomości tekstowej, której rozmiar nie przekracza 2^64 bitów. Wygenerowane dane przetwarzane są w 512-bitowych blokach, które przechodzą 80 podobnych etapów."/></TextBlock>
         <TextBlock HorizontalAlignment="Left" Foreground="AntiqueWhite" Margin="10,625,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="365" Width="680"><Run Text="Powyższe ilustracje przedstawiają schemat blokowy algorytmu SHA1."/><LineBreak/><Run/><LineBreak/><Run Text="ZASTOSOWANIE"/><LineBreak/><Run/><LineBreak/><Run Text="Algorytm stosowany jest w niektórych aplikacjach rządu Stanów Zjednoczonych, m.in. w celu ochrony poufnych danych. Jest on jednak wypierany na rzecz algorytmów SHA2."/><LineBreak/><Run/><LineBreak/><Run Text="KRYPTOANALIZA"/><LineBreak/><Run/><LineBreak/><Run Text="W 2004 przedstawiono pozytywnie przeprowadzone ataki na funkcje skrótu mając"/><Run Text="e"/><Run Text=" zbliżoną budowę do algorytmu SHA1. Od 2010 NIST stosuje algorytmy SHA2, które są bezpieczniejsze i bardziej efektywne od swoich poprzedników."/><Run Text=" W następnych latach złamano warianty algorytmu kilkukrotnie. Najbardziej efektywny atak "/><Run Text="złamał algorytm"/><Run Text=" za pomocą funkcji kompresującej w czasie 2^63 ilości operacji."/><LineBreak/><Run/><LineBreak/><Run Text="PRZYKŁADY"/><LineBreak/><Run/><LineBreak/><Run Text="To zdanie jest zakodowane."/><LineBreak/><Run Text="e323acb3e74884dedbd7d234a5ccfc796805de1e"/></TextBlock>
     </Grid>
